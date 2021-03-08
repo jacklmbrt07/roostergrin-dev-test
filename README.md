@@ -1,70 +1,12 @@
-# Getting Started with Create React App
+# Dev Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Technologies Used
+This static web page was built with react, styled components, and React-scroll. React Router was also set up, but not used to its full capabilities. The page work and design and many code sources were not all from my own, as I give credit to Brian from Codavilla. link: https://www.codavilla.com/posts/react-website-using-styled-components-and-smooth-scroll. 
 
-## Available Scripts
+### Struggles
+The main problem I encountered was getting a functioning carousel in the final Informational Section of the page. I tried using and reasearching a few different resources. React-Boostrap has its own Carousel component, but I was unable to get the component fit or render properly. Next I tried React-Materialize, then React-Slick, and had the same problem. "Slick" is a carousel that should render dynamically in any container. I tried changing around the sizes and settings of the container, but also to no avail. I wanted to avoid using any jQuery with materialize. I think If i had more time, I would have eventually found a correct resource for this specific type of text-only, minitaure type of carousel that the client requested. A final resort would be to try to hard-coding it in html and css, but I dont think the results would be optimal as a quick react component. 
 
-In the project directory, you can run:
+### What I enjoyed the most
+I turned out pretty satisfied with the fonts and colors, and the navbar. The React-scroll allows the page to move smoothly when the nav links are clicked. Also I substitued the hero image for a dynamic mp4, which I think made the page feel more alive. The colors on the nav links animate when selected. The site is also mobile responsive. I think this is an excellent template to use for the future, and was excellent practice for me using and naming compoennts, and writing styled-components.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+--Jack Lambert, jacklmbrt07@gmail.com

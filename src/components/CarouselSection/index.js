@@ -9,10 +9,13 @@ import {
   Subtitle,
   BtnWrap,
   Column2,
+  ImgWrap,
 } from "../InfoSection/InfoElements";
 import { Button } from "../ButtonElements";
-import Carousel from "react-bootstrap/Carousel";
-import { useState } from "react";
+import Slider from "react-slick";
+// import "~slick-carousel/slick/slick.css"; 
+// import "~slick-carousel/slick/slick-theme.css";
+// import { useState } from "react";
 
 const CarouselSection = ({
   lightBg,
@@ -27,11 +30,17 @@ const CarouselSection = ({
   dark,
   dark2,
 }) => {
-//   const [index, setIndex] = useState(0);
-//   const handleSelect = (selectedIndex, e) => {
-//     setIndex(selectedIndex);
-//   };
-
+  //   const [index, setIndex] = useState(0);
+  //   const handleSelect = (selectedIndex, e) => {
+  //     setIndex(selectedIndex);
+  //   };
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
@@ -60,50 +69,28 @@ const CarouselSection = ({
               </TextWrapper>
             </Column1>
             <Column2>
-              <Carousel>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=First slide&bg=373940"
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>
-                      Nulla vitae elit libero, a pharetra augue mollis interdum.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Second slide&bg=282c34"
-                    alt="Second slide"
-                  />
-
-                  <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block w-100"
-                    src="holder.js/800x400?text=Third slide&bg=20232a"
-                    alt="Third slide"
-                  />
-
-                  <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                      Praesent commodo cursus magna, vel scelerisque nisl
-                      consectetur.
-                    </p>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
+              {/* <div>
+                <Slider {...settings}>
+                  <div>
+                    <h3>1</h3>
+                  </div>
+                  <div>
+                    <h3>2</h3>
+                  </div>
+                  <div>
+                    <h3>3</h3>
+                  </div>
+                  <div>
+                    <h3>4</h3>
+                  </div>
+                  <div>
+                    <h3>5</h3>
+                  </div>
+                  <div>
+                    <h3>6</h3>
+                  </div>
+                </Slider>
+              </div> */}
             </Column2>
           </InfoRow>
         </InfoWrapper>
