@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/roostergrin-dev-test/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/roostergrin-dev-test/static/js/main.8038a69e.chunk.js",
+    "main.js.map": "/roostergrin-dev-test/static/js/main.8038a69e.chunk.js.map",
+    "runtime-main.js": "/roostergrin-dev-test/static/js/runtime-main.053f3bbf.js",
+    "runtime-main.js.map": "/roostergrin-dev-test/static/js/runtime-main.053f3bbf.js.map",
+    "static/js/2.2215d47a.chunk.js": "/roostergrin-dev-test/static/js/2.2215d47a.chunk.js",
+    "static/js/2.2215d47a.chunk.js.map": "/roostergrin-dev-test/static/js/2.2215d47a.chunk.js.map",
+    "static/js/3.ea9a0c3d.chunk.js": "/roostergrin-dev-test/static/js/3.ea9a0c3d.chunk.js",
+    "static/js/3.ea9a0c3d.chunk.js.map": "/roostergrin-dev-test/static/js/3.ea9a0c3d.chunk.js.map",
+    "index.html": "/roostergrin-dev-test/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/roostergrin-dev-test/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.2215d47a.chunk.js.LICENSE.txt": "/roostergrin-dev-test/static/js/2.2215d47a.chunk.js.LICENSE.txt",
+    "static/media/banner-1.jpg": "/roostergrin-dev-test/static/media/banner-1.4638a869.jpg",
+    "static/media/banner-2.jpg": "/roostergrin-dev-test/static/media/banner-2.94ddf3c2.jpg",
+    "static/media/img1.jpg": "/roostergrin-dev-test/static/media/img1.7a73ec85.jpg",
+    "static/media/logo-white.daed702e.svg": "/roostergrin-dev-test/static/media/logo-white.daed702e.svg",
+    "static/media/video.dc5b5daa.mp4": "/roostergrin-dev-test/static/media/video.dc5b5daa.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.053f3bbf.js",
+    "static/js/2.2215d47a.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.8038a69e.chunk.js"
+  ]
+}
