@@ -9,10 +9,8 @@ import {
   Subtitle,
   BtnWrap,
   Column2,
-  ImgWrap,
 } from "../InfoSection/InfoElements";
 import { Button } from "../ButtonElements";
-import Slider from "react-slick";
 // import "~slick-carousel/slick/slick.css"; 
 // import "~slick-carousel/slick/slick-theme.css";
 // import { useState } from "react";
@@ -34,13 +32,13 @@ const CarouselSection = ({
   //   const handleSelect = (selectedIndex, e) => {
   //     setIndex(selectedIndex);
   //   };
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+//   const settings = {
+//     dots: true,
+//     infinite: true,
+//     speed: 500,
+//     slidesToShow: 1,
+//     slidesToScroll: 1,
+//   };
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
