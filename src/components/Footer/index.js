@@ -20,8 +20,8 @@ const Footer = () => {
     <>
       <FooterContainer>
         <FooterWrap>
-          <FooterLinksContainer>
-            <FooterLinksWrapper>
+          {/* <FooterLinksContainer>
+             <FooterLinksWrapper>
               <FooterLinkItems>
                 <FooterLinkTitle>Social Media</FooterLinkTitle>
                 <FooterLink to="/">Facebook</FooterLink>
@@ -32,14 +32,14 @@ const Footer = () => {
                 <FooterLink to="/">Facebook</FooterLink>
                 <FooterLink to="/">Instagram</FooterLink>
               </FooterLinkItems>
-            </FooterLinksWrapper>
-          </FooterLinksContainer>
+            </FooterLinksWrapper> 
+          </FooterLinksContainer> */}
           <SocialMedia>
-            <SocialMediaWrap>
-              <SocialLogo to="/">roostergrin</SocialLogo>
               <WebsiteRights>
-                RoosterGrin (c) {new Date().getFullYear()}
+                Follow us
               </WebsiteRights>
+            <SocialMediaWrap>
+              {/* <SocialLogo to="/">roostergrin</SocialLogo> */}
               <SocialIcons>
                 <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                   <FaFacebook />

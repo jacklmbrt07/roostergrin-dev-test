@@ -82,7 +82,7 @@ export const NavLinks = styled(LinkS)`
   cursor: pointer;
 
   &.active {
-    border-bottom: 3px solid #01bf71;
+    border-bottom: 3px solid #9d26ff;
   }
 `;
 
@@ -97,10 +97,10 @@ export const NavBtn = styled.nav`
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
-  background: #01bf71;
+  background: #9d26ff;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606;
+  color: #fff;
   font-size: 16px;
   outline: none;
   border: none;
@@ -113,4 +113,10 @@ export const NavBtnLink = styled(LinkR)`
     background: white;
     color: #010606;
   }
+`;
+
+export const RoosterGrinLogo = styled.img`
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding-right: 0;
 `;

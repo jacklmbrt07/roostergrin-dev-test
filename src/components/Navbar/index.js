@@ -8,17 +8,19 @@ import {
   NavLinks,
   NavBtn,
   NavBtnLink,
+  RoosterGrinLogo,
 } from "./NavbarElements";
 import { FaBars } from "react-icons/fa";
 import { useEffect, useState } from "react";
 import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
+import Logo from "../../assets/logo-white.svg";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
 
   const changeNav = () => {
-    if (window.scrollY >= 900) {
+    if (window.scrollY >= 720) {
       setScrollNav(true);
     } else {
       setScrollNav(false);
@@ -39,7 +41,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              RoosterGrin
+              <RoosterGrinLogo src={Logo} />
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -52,7 +54,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={0}
+                  offset={-80}
                 >
                   About
                 </NavLinks>
@@ -64,7 +66,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={0}
+                  offset={-80}
                 >
                   Discover
                 </NavLinks>
@@ -76,7 +78,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={0}
+                  offset={-80}
                 >
                   Services
                 </NavLinks>
@@ -88,7 +90,7 @@ const Navbar = ({ toggle }) => {
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={0}
+                  offset={-80}
                 >
                   Sign Up
                 </NavLinks>
@@ -101,7 +103,7 @@ const Navbar = ({ toggle }) => {
                 duration={500}
                 spy={true}
                 exact="true"
-                offset={0}
+                offset={-80}
               >
                 Sign In
               </NavBtnLink>
