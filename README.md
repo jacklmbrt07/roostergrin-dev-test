@@ -1,5 +1,5 @@
 # Dev Test
-see deployed page [here](http://jacklmbrt07.git.io/roostergrin-dev-test).
+see deployed page [here](https://jacklmbrt07.github.io/roostergrin-dev-test/).
 
 ### Technologies Used
 This static web page was built with react, styled components, and React-scroll. React Router was also set up, but not used to its full capabilities. The page work and design and many code sources were not all from my own, as I give credit to Brian from Codavilla. link: https://www.codavilla.com/posts/react-website-using-styled-components-and-smooth-scroll. 
